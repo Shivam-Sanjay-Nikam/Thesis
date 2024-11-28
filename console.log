@@ -1,0 +1,233 @@
+/Users/shivamnikam/PycharmProjects/IMU/.venv/bin/python /Users/shivamnikam/PycharmProjects/IMU/main.py
+Connected to ESP32 via Bluetooth
+Training data loaded from gesture_training_data.csv
+KNN model trained successfully.
+Initial data collection complete.
+Calibration complete. Mean values: {'anglex': np.float64(-0.1041), 'angley': np.float64(-4.3690999999999995), 'anglez': np.float64(0.40190000000000003)}
+Sensor data calibrated.
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral']
+Current mode: wait_circle
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Updated mode: wait_circle
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left']
+Current mode: wait_circle
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Updated mode: wait_circle
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral']
+Current mode: wait_circle
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Updated mode: wait_circle
+Detected ' Circle'
+Received gesture: Circle
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle']
+Current mode: wait_circle
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Circle detected: Starting to store value for 'a'
+Updated mode: storing_a
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Updated mode: storing_a
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: 0, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_a
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -1, Result: None
+Updated mode: storing_a
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -1, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_a
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -2, Result: None
+Updated mode: storing_a
+Detected ' Swipe Right'
+Received gesture: Swipe Right
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -2, Result: None
+Swipe Right detected: Incrementing current number by 1
+Updated mode: storing_a
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -1, Result: None
+Updated mode: storing_a
+Detected ' Circle'
+Received gesture: Circle
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle']
+Current mode: storing_a
+Current 'a': 0, Current 'b': 0, Current Number: -1, Result: None
+Circle detected: Stored 'a' as -1
+Circle detected: Starting to store value for 'b'
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: 0, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: 0, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -1, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -1, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -2, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -2, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -3, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -3, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -4, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -4, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -5, Result: None
+Updated mode: storing_b
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -5, Result: None
+Swipe Left detected: Decrementing current number by 1
+Updated mode: storing_b
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -6, Result: None
+Updated mode: storing_b
+Detected ' Circle'
+Received gesture: Circle
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle']
+Current mode: storing_b
+Current 'a': -1, Current 'b': 0, Current Number: -6, Result: None
+Circle detected: Stored 'b' as -6
+Circle detected: Ready for operation gestures
+Updated mode: operation
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: None
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Swipe Up'
+Received gesture: Swipe Up
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: None
+Operation detected: -1 + -6 = -7
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up', 'Neutral']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: -7
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Swipe Left'
+Received gesture: Swipe Left
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up', 'Neutral', 'Swipe Left']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: -7
+Operation detected: -1 / -6 = 0.16666666666666666
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up', 'Neutral', 'Swipe Left', 'Neutral']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: 0.16666666666666666
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Swipe Right'
+Received gesture: Swipe Right
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: 0.16666666666666666
+Operation detected: -1 * -6 = 6
+Setting to wait for the next operation...
+Updated mode: operation
+Detected ' Neutral'
+Received gesture: Neutral
+Gesture history: ['Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral', 'Circle', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Left', 'Neutral', 'Circle', 'Neutral', 'Swipe Up', 'Neutral', 'Swipe Left', 'Neutral', 'Swipe Right', 'Neutral']
+Current mode: operation
+Current 'a': -1, Current 'b': -6, Current Number: -6, Result: 6
+Setting to wait for the next operation...
+Updated mode: operation
+Data collection stopped by user.
+Bluetooth connection closed.
+
+Process finished with exit code 0

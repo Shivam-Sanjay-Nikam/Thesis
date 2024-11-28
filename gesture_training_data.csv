@@ -1,0 +1,62 @@
+Tilt Down, Tilt Down, Tilt Left, Tilt Right, Gesture
+0, 0, 8, 0, Swipe Left
+0, 0, 8, 1, Swipe Left
+0, 0, 8, 0, Swipe Left
+0, 0, 8, 1, Swipe Left
+0, 0, 8, 2, Swipe Left
+0, 0, 10, 0, Swipe Left
+0, 0, 9, 1, Swipe Left
+0, 0, 11, 0, Swipe Left
+0, 0, 10, 1, Swipe Left
+0, 0, 10, 2, Swipe Left
+0, 0, 0, 8, Swipe Right
+0, 0, 1, 8, Swipe Right
+0, 0, 2, 8, Swipe Right
+0, 0, 3, 11, Swipe Right
+0, 0, 0, 10, Swipe Right
+0, 0, 1, 10, Swipe Right
+0, 0, 0, 9, Swipe Right
+0, 0, 0, 11, Swipe Right
+0, 0, 0, 10, Swipe Right
+0, 0, 0, 0, Neutral
+0, 0, 0, 1, Neutral
+0, 0, 1, 0, Neutral
+0, 1, 0, 0, Neutral
+1, 0, 0, 0, Neutral
+0, 5, 4, 1, Circle
+1, 5, 3, 2, Circle
+2, 5, 4, 1, Circle
+0, 5, 5, 1, Circle
+0, 5, 4, 2, Circle
+4, 3, 2, 1, Circle
+6, 2, 0, 2, Circle
+3, 2, 2, 1, Circle
+8, 0, 0, 0, Swipe Down
+8, 0, 1, 0, Swipe Down
+9, 0, 0, 0, Swipe Down
+9, 0, 0, 1, Swipe Down
+8, 1, 0, 0, Swipe Down
+8, 0, 0, 2, Swipe Down
+10, 0, 0, 0, Swipe Down
+9, 2, 0, 0, Swipe Down
+11, 0, 0, 0, Swipe Down
+12, 0, 0, 1, Swipe Down
+13, 1, 0, 0, Swipe Down
+13, 0, 0, 2, Swipe Down
+0, 8, 0, 0, Swipe Up
+0, 8, 1, 0, Swipe Up
+0, 9, 0, 0, Swipe Up
+0, 9, 0, 1, Swipe Up
+0, 10, 1, 0, Swipe Up
+0, 11, 1, 0, Swipe Up
+0, 13, 1, 0, Swipe Up
+0, 14, 1, 0, Swipe Up
+0, 15, 1, 0, Swipe Up
+0, 0, 4, 0, Fast Forward Left
+0, 0, 2, 0, Fast Forward Left
+0, 0, 3, 0, Fast Forward Left
+0, 0, 0, 3, Fast Forward Right
+0, 0, 0, 2, Fast Forward Right
+0, 0, 0, 4, Fast Forward Right
+
+
